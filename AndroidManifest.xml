@@ -10,17 +10,11 @@
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity android:name="thelab.o2.co.uk.tapontag.TagViewer" android:theme="@android:style/Theme.NoTitleBar">
-			<intent-filter>
-				<action android:name="android.nfc.action.TAG_DISCOVERED" />
-				<category android:name="android.intent.category.DEFAULT" />
-			</intent-filter>
-			
-		</activity>
+  
 
     </application>
     

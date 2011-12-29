@@ -3,10 +3,15 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+    android:weightSum="1"
+    android:background="@drawable/background">
+    
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1">
+    </LinearLayout>
+    <Button android:id="@+id/write_tag" android:text="@string/write_to_tag" android:layout_height="wrap_content" android:layout_weight="0.11" android:layout_width="116dp" android:background="@color/white"></Button>
+    
+<EditText android:id="@+id/note" android:gravity="top" android:text="@string/default_note_text" android:layout_width="match_parent" android:layout_height="wrap_content"></EditText>
+<RelativeLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="0.62">
+    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/tap" android:layout_centerVertical="true" android:layout_centerHorizontal="true"></ImageView>
+</RelativeLayout>
 </LinearLayout>

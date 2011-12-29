@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, TapOnTagActivity!</string>
-    <string name="app_name">TapOnTag</string>
+    <string name="hello">Hello World, StickyNotesActivity!</string>
+    <string name="app_name">TapO2Tag</string>
+    <string name="write_to_tag">Write to Tag</string>
+    <string name="default_note_text">Edit me!</string>
 </resources>

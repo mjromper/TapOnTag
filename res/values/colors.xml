@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF0000DD</color>
+    <color name="red">#FFFF0000</color>
+    <color name="transparent">#00000000</color>
+
+    <!--color name="darkBlueGradientStart">#ff0a1437</color>
+     <color name="darkBlueGradientEnd">#ff040a1a</color-->
+    <color name="blueGradientStart">#ff133c85</color>
+    <color name="blueGradientMiddle">#ff0a2a6a</color>
+    <color name="blueGradientEnd">#ff001239</color>
+  
+    <color name="editTextDarkBlue">#23447b</color>
+    <color name="lightBlue">#ff67beeb</color>
+    <string name="lightBlueString">#67beeb</string>
+    <color name="darkBlue">#ff0261a5</color>
+    <color name="realyDarkTransparentBlue">#80001239</color>
+    
+
+</resources>
